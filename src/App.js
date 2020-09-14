@@ -1,10 +1,12 @@
-import React from 'react';
-import ApolloClient from 'apollo-boost';
+import React from "react";
+
+import ExchangeRates from "./ExchangeRates";
 
 function App() {
   return (
     <div className="App">
-      tihs
+      <h2>My first Apollo app 🚀</h2>
+      <ExchangeRates />
     </div>
   );
 }
